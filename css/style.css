@@ -1,0 +1,97 @@
+:root {
+    /* ------- COLORS ------- */
+    --color-primary: hsl(177, 68%, 64%);
+    --color-primary: hsl(12, 94%, 65%);
+    --color-primary: hsl(33, 100%, 70%);
+    --color-text: hsl(20, 33%, 98%);
+    --color-text-dark: hsl(244, 23%, 12%);
+
+    /* ------- RADIUS ------- */
+    --radius: 12px;
+
+    /* ------- BREAKPOINTS ------- */
+    --phone: 375px;
+    --tablet: 768px;
+    --desktop: 1440px;
+
+    /* -------- TEXT -------- */
+    --text-body: 1.6rem;
+    --text-body-bigger: 2rem;
+    
+    /* -------- CONTAINERS -------- */ 
+    --container-mobile: padding: 0 2.4rem;
+    --container-tablet: padding: 0 3.9rem;
+}
+
+/* ------- BASIC ------- */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'IBM Plex Sans', 'Arial', 'Roboto', 'Helvetica', sans-serif;
+}
+
+body {
+    align-items: center;
+    background: url('../assets/bg-main-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-text);
+    font-size: var(--text-body);
+    line-height: 2.6rem;
+    min-height: 100vh;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 8.8rem;
+    font-weight: 700;
+    line-height: 8.8rem;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5.2rem;
+} 
+
+/* ------- HEADER ------- */
+
+/* ------- SECTION ABOUT ------- */
+
+/* ------- FOOTER ------- */
