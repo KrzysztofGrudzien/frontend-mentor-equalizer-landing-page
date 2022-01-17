@@ -306,4 +306,93 @@ h2 {
 /* ------- DESKTOP ------- */
 
 @media screen and (min-width: 1441px) {
+    .container,
+    .main,
+    .article {
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+
+    .background-img {
+        display: block;
+        height: 500px;
+        top: -3.2rem;
+        width: 334px;
+    }
+
+    body {
+        background: url('../assets/bg-main-desktop.png');
+        background-position: right 30% top 150%;
+        background-repeat: no-repeat;
+        min-width: 100%;
+    }
+
+    .about__title {
+        font-size: 8.8rem;
+        line-height: 8.8rem;
+    }
+
+    .about__description {
+        font-size: var(--text-body-bigger);
+        line-height: 3.4rem;
+        width: 80%;
+    }
+
+    .container-wrapper {
+        max-width: 446px;
+        position: absolute;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        right: 9%;
+        top: 15%;
+    }
+
+    .article__img {
+        margin-top: -620px;
+        left: 5%;
+        position: absolute;
+        transform: translate(-5%, 0);
+        max-width: 312px;
+    }
+
+    .article {
+        background-position: top -30% left 37%;
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+        margin-bottom: 12rem;
+        margin-top: 30rem;
+        min-height: 600px;
+    }
+
+    .article__title {
+        font-size: 4rem;
+        margin-top: 3rem;
+        padding: 3rem 0;
+    }
+
+    .article__description {
+        font-size: var(--text-body-bigger);
+        line-height: 3.4rem;
+    }
+
+    .footer > .container {
+        align-items: flex-start;
+        display: flex;
+    }
+
+    .footer__content {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer__logo {
+        margin: 0;
+        padding-right: 14rem;
+    }
+
+    .footer__copyright {
+        padding: 0;
+    }
 }
