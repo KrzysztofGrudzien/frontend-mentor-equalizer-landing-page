@@ -220,6 +220,16 @@ h2 {
     margin-right: 1rem;
 }
 
+.social-media__link {
+    color: var(--color-text-dark);
+    font-size: 2rem;
+    transition: color 0.3s linear;
+}
+
+.social-media__link:hover {
+    color: var(--color-secondary);
+}
+
 /* ------- FOOTER ------- */
 
 .footer {
@@ -304,6 +314,22 @@ h2 {
         margin-right: 3.2rem;
         margin-bottom: 12rem;
         min-height: 600px;
+    }
+
+    .footer__content {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer__copyright {
+        padding-bottom: 0;
+    }
+
+    .social-media__link {
+        margin-left: 2rem;
+        margin-right: 0;
     }
 }
 
