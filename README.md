@@ -44,6 +44,7 @@ Users should be able to:
 - Flexbox
 - Bem Methodology
 - Mobile-first workflow
+- Font Awsome [https://fontawesome.com](https://fontawesome.com)
 
 ### What I learned
 How to build realistic project based on Figma layout with design system using pure CSS and HTML.
