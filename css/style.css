@@ -9,11 +9,6 @@
     /* ------- RADIUS ------- */
     --radius: 12px;
 
-    /* ------- BREAKPOINTS ------- */
-    --phone: 375px;
-    --tablet: 768px;
-    --desktop: 1440px;
-
     /* -------- TEXT -------- */
     --text-body: 1.6rem;
     --text-body-bigger: 2rem;
