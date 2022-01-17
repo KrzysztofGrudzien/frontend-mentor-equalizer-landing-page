@@ -64,6 +64,8 @@ body {
     min-height: 100vh;
     max-width: 375px;
     margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
 }
 
 ol,
@@ -98,6 +100,17 @@ h2 {
 
 .container {
     padding: var(--container-mobile);
+}
+
+.background-img {
+    background-image: url(../assets/bg-pattern-1.svg);
+    background-size: cover;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 266px;
+    z-index: 1;
 }
 
 /* ------- HEADER ------- */
@@ -224,4 +237,73 @@ h2 {
 
 .social-media__link {
     margin-right: 2rem;
+}
+
+/* ------- PHONE ------- */
+
+@media screen and (min-width: 375px) {
+    .background-img {
+        display: none;
+    }
+}
+
+/* ------- TABLET ------- */
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+    body {
+        background: url('../assets/bg-main-tablet.png');
+        background-position: right 30% top -35%;
+        background-repeat: no-repeat;
+        max-width: 1024px;
+    }
+
+    .background-img {
+        display: block;
+        right: -3.2rem;
+        top: -2.5rem;
+    }
+
+    .container {
+        padding: var(--container-tablet);
+    }
+
+    .container-wrapper {
+        max-width: 400px;
+        position: absolute;
+        right: 8%;
+        top: 25%;
+    }
+
+    .about__title {
+        font-size: 6.4rem;
+        line-height: 6.4rem;
+        width: 70%;
+        z-index: 1;
+    }
+
+    .about__description {
+        font-size: var(--text-body-bigger);
+        width: 70%;
+    }
+
+    .article__img {
+        margin-top: -520px;
+        left: 15%;
+        position: absolute;
+        transform: translate(-15%, 0);
+        max-width: 270px;
+    }
+
+    .article {
+        background-position: top -30% center;
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+        margin-bottom: 12rem;
+        min-height: 600px;
+    }
+}
+
+/* ------- DESKTOP ------- */
+
+@media screen and (min-width: 1441px) {
 }
